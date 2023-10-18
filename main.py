@@ -25,7 +25,7 @@ def get_meeting_summary():
                             -If applicable, a list of topics that need to be discussed more fully in the next meeting."""
 
         # Get a response from Chat GPT-4
-        response = get_response_from_chat_gpt(system_prompt, f.read(), 0.2)
+        response = get_response_from_chat_gpt(system_prompt, f.read(), 0)
 
         return response, 200
 
