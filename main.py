@@ -2,7 +2,7 @@ import openai
 import os
 from flask import Flask, request, jsonify
 
-openai_model = 'gpt-3.5-turbo'
+openai_model = 'gpt-4'
 
 app = Flask(__name__)
 
