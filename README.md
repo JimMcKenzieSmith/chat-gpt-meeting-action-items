@@ -4,7 +4,7 @@ In our virtually connected world, we use video meetings more than ever.  And the
 
 ## How It Works
 
-Sample meeting transcript files are provided in the data folder, and these get loaded into a Pandas dataframe by the app.
+A sample meeting transcript file is provided in the data folder, and this gets loaded by the app and passed to Chat GPT.  A system prompt and a user prompt is leveraged to generate a meeting summary, action items, and topics for discussion next meeting.
 
 ## Installation
 
